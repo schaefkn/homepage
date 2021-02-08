@@ -12,9 +12,15 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://schaefkn.com">schaefkn.com!</a>
+        </h1>
+
+        <p className={styles.description}>
+          This site is currently under construction
+        </p>
+      </main>
 
       <footer className={styles.footer}>
-        <p>Made with ❤️</p>
+        <p>Made with ❤️  in Stuttgart, Germany</p>
       </footer>
     </div>
   )
