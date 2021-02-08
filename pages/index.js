@@ -11,12 +11,30 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://schaefkn.com">schaefkn.com!</a>
+          Kevin Schaefer
         </h1>
 
         <p className={styles.description}>
-          This site is currently under construction
+          Founder, Apple Scholar, Software Engineer, Computer Science Student
         </p>
+
+        <div className={styles.grid}>
+           <a href="https://twitter.com/schaefkn" className={styles.card}>
+             <h3>Twitter &rarr;</h3>
+           </a>
+
+           <a href="https://instagram.com/schaefkn" className={styles.card}>
+             <h3>Instagram &rarr;</h3>
+           </a>
+
+           <a href="https://github.com/schaefkn" className={styles.card}>
+             <h3>GitHub &rarr;</h3>
+           </a>
+
+           <a href="http://linkedin.com/in/schaefkn/" className={styles.card}>
+             <h3>LinkedIn &rarr;</h3>
+           </a>
+         </div>
       </main>
 
       <footer className={styles.footer}>
